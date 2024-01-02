@@ -95,7 +95,7 @@
 
 .u-section-2 .u-text-1 {
   font-size: 1.875rem;
-  margin: 0 auto 0 16px;
+  margin: 0 -373px 0 16px;
 }
 
 .u-section-2 .u-text-2 {
@@ -171,6 +171,10 @@
 
   .u-section-2 .u-layout-cell-1 {
     min-height: 322px;
+  }
+
+  .u-section-2 .u-text-1 {
+    margin-right: 0;
   }
 
   .u-section-2 .u-text-3 {
