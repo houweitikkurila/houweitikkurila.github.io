@@ -104,7 +104,7 @@
 }
 
 .u-section-2 .u-layout-cell-2 {
-  min-height: 393px;
+  min-height: 542px;
 }
 
 .u-section-2 .u-container-layout-2 {
@@ -114,7 +114,13 @@
 .u-section-2 .u-image-1 {
   width: 389px;
   height: 323px;
-  margin: 0 0 0 auto;
+  margin: 0 76px 0 auto;
+}
+
+.u-section-2 .u-image-2 {
+  width: 277px;
+  height: 129px;
+  margin: 13px 117px 0 auto;
 }
 
 .u-section-2 .u-layout-cell-3 {
@@ -140,11 +146,15 @@
   }
 
   .u-section-2 .u-layout-cell-2 {
-    min-height: 324px;
+    min-height: 447px;
   }
 
   .u-section-2 .u-image-1 {
     margin-right: 21px;
+  }
+
+  .u-section-2 .u-image-2 {
+    margin-right: 48px;
   }
 
   .u-section-2 .u-layout-cell-3 {
@@ -166,12 +176,18 @@
   }
 
   .u-section-2 .u-layout-cell-2 {
-    min-height: 248px;
+    min-height: 342px;
   }
 
   .u-section-2 .u-image-1 {
     width: 300px;
     height: 249px;
+    margin-right: 0;
+  }
+
+  .u-section-2 .u-image-2 {
+    width: 240px;
+    height: 112px;
     margin-right: 0;
   }
 
@@ -186,7 +202,7 @@
   }
 
   .u-section-2 .u-layout-cell-2 {
-    min-height: 453px;
+    min-height: 669px;
   }
 
   .u-section-2 .u-container-layout-2 {
@@ -218,7 +234,7 @@
   }
 
   .u-section-2 .u-layout-cell-2 {
-    min-height: 285px;
+    min-height: 421px;
   }
 
   .u-section-2 .u-image-1 {
@@ -404,21 +420,20 @@
 }
 
 .u-section-4 .u-sheet-1 {
-  min-height: 721px;
+  min-height: 779px;
 }
 
 .u-section-4 .u-text-1 {
-  margin: 63px auto 0;
+  margin: 60px auto 0;
 }
 
 .u-section-4 .u-form-1 {
-  height: 457px;
-  --thumb-color: #4756c9;
-  --thumb-hover-color: #7782d9;
+  height: 580px;
+  --thumb-color: #478ac9;
+  --thumb-hover-color: #77aad9;
   --track-color: #c0c0c0;
-  --track-active-color: #4756c9;
-  width: 886px;
-  margin: 32px auto 60px;
+  --track-active-color: #478ac9;
+  margin: 20px 103px 60px 151px;
 }
 
 .u-section-4 .u-form-group-3 {
@@ -429,17 +444,42 @@
   margin-left: 0;
 }
 
+.u-section-4 .u-form-group-5 {
+  margin-left: 0;
+}
+
+.u-section-4 .u-form-group-6 {
+  margin-left: 0;
+}
+
+.u-section-4 .u-form-group-7 {
+  --progress: 1%;
+}
+
+.u-section-4 .u-btn-1 {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+@media (max-width: 1199px) {
+  .u-section-4 .u-form-1 {
+    width: 886px;
+    margin-left: 51px;
+    margin-right: 3px;
+  }
+}
+
 @media (max-width: 991px) {
   .u-section-4 .u-form-1 {
     width: 720px;
+    margin-left: 0;
+    margin-right: 0;
   }
 }
 
 @media (max-width: 767px) {
   .u-section-4 .u-form-1 {
     width: 540px;
-    margin-left: 0;
-    margin-right: 0;
   }
 }
 

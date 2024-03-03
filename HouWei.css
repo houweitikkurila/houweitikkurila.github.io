@@ -247,9 +247,10 @@
 }
 
 .u-section-3 .u-repeater-1 {
-  grid-template-columns: calc(33.3333% - 13.3333px) calc(33.3333% - 13.3333px) calc(33.3333% - 13.3333px);
+  grid-template-columns: repeat(2, calc(50% - 10px));
   min-height: 429px;
-  grid-gap: 20px 20px;
+  grid-auto-columns: calc(50% - 10px);
+  grid-gap: 20px;
 }
 
 .u-section-3 .u-image-1 {
@@ -290,42 +291,24 @@
   padding: 0;
 }
 
-.u-section-3 .u-image-3 {
-  background-image: linear-gradient(0deg, rgba(0,0,0,0.15), rgba(0,0,0,0.15)), url("images/DALLE2023-12-2600.53.20-Createanultra-realisticimageofahotpotmealwithayin-yangstylepotsplitbetweenaclearandaspicybroth.Inthepotarrangeasymphony.png");
-  background-position: 50% 50%;
-}
-
-.u-section-3 .u-container-layout-3 {
-  padding: 10px;
-}
-
-.u-section-3 .u-text-4 {
-  font-size: 3rem;
-  margin: 164px auto 0;
-}
-
-.u-section-3 .u-btn-3 {
-  background-image: none;
-  padding: 0;
-}
-
 @media (max-width: 1199px) {
   .u-section-3 .u-repeater-1 {
     grid-template-columns: calc(50% - 10px) calc(50% - 10px);
-    min-height: 351px;
+    min-height: 352px;
   }
 }
 
 @media (max-width: 991px) {
   .u-section-3 .u-repeater-1 {
     grid-template-columns: calc(50% - 9.99997px) calc(50% - 9.99997px);
-    min-height: 839px;
+    grid-auto-columns: calc(100% - 0px);
   }
 }
 
 @media (max-width: 767px) {
   .u-section-3 .u-repeater-1 {
     grid-template-columns: 100%;
+    grid-auto-columns: 100%;
   }
 }
 
@@ -354,16 +337,6 @@
   }
 
   .u-section-3 .u-text-3 {
-    width: auto;
-    margin-top: 0;
-  }
-
-  .u-section-3 .u-container-layout-3 {
-    padding-left: 0;
-    padding-right: 0;
-  }
-
-  .u-section-3 .u-text-4 {
     width: auto;
     margin-top: 0;
   }
@@ -551,10 +524,10 @@
 
 .u-section-5 .u-form-1 {
   height: 494px;
-  --thumb-color: #4756c9;
-  --thumb-hover-color: #7782d9;
+  --thumb-color: #478ac9;
+  --thumb-hover-color: #77aad9;
   --track-color: #c0c0c0;
-  --track-active-color: #4756c9;
+  --track-active-color: #478ac9;
   width: 886px;
   margin: 32px auto 60px;
 }
@@ -565,6 +538,18 @@
 
 .u-section-5 .u-form-group-4 {
   margin-left: 0;
+}
+
+.u-section-5 .u-form-group-5 {
+  margin-left: 0;
+}
+
+.u-section-5 .u-form-group-6 {
+  margin-left: 0;
+}
+
+.u-section-5 .u-form-group-7 {
+  --progress: 1%;
 }
 
 .u-section-5 .u-btn-1 {
