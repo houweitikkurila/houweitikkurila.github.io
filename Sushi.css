@@ -1,5 +1,5 @@
  .u-section-1 {
-  background-image: linear-gradient(0deg, rgba(0,0,0,0.25), rgba(0,0,0,0.25)), url('images/202312272338132.jpg');
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url('images/202312272338132.jpg');
   background-position: 50% 100%;
 }
 
@@ -260,10 +260,10 @@
 }
 
 .u-section-3 .u-repeater-1 {
-  grid-template-columns: calc(33.3333% - 13.3333px) calc(33.3333% - 13.3333px) calc(33.3333% - 13.3333px);
+  grid-template-columns: repeat(3, calc(33.3333% - 13.3333px));
   min-height: 352px;
-  grid-gap: 20px 20px;
   grid-auto-columns: calc(33.3333% - 13.3333px);
+  --gap: 20px;
 }
 
 .u-section-3 .u-image-1 {
@@ -389,6 +389,7 @@
 
   .u-section-3 .u-repeater-1 {
     grid-template-columns: repeat(3, calc(33.333333333333336% - 13.3333px));
+    grid-gap: 20px 20px;
     grid-auto-columns: calc(33.333333333333336% - 13.3333px);
   }
 }
